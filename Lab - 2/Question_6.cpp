@@ -23,7 +23,6 @@ void Demo::displayMessage()
 {
     cout << "Function defined outside the class using scope resolution!" << endl;
 }
-
 int main()
 {
     Demo d;
@@ -33,6 +32,6 @@ int main()
     d.showStatic();
     d.showStatic();
     std::cout << "Using std::cout with scope resolution" << std::endl;
-    std::cin.ignore(); // using std::cin as example
+    std::cin.ignore(); 
     return 0;
 }
