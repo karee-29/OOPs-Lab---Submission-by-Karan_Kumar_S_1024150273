@@ -16,7 +16,7 @@ private:
     Book books[100];  
     int count;         
 public:
-    Library() : count(0) {}   // Constructor initializes count to 0
+    Library() : count(0) {}  
     bool addBook(const string &title, const string &author, const string &ISBN) {
         if (count >= 100)
          return false; 
