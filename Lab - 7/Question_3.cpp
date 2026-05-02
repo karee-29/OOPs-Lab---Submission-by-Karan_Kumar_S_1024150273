@@ -12,10 +12,8 @@ double area(double equalSide, double base, bool isIsosceles) {
     double height = sqrt(equalSide * equalSide - (base * base) / 4.0);
     return 0.5 * base * height;
 }
-
 int main() {
     double base, height, side, equalSide;
-
     cout << "Enter base and height of right-angled triangle: ";
     cin >> base >> height;
     cout << "Area of right-angled triangle = " << area(base, height) << endl;
