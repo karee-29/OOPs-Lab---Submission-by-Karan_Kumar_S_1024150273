@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 struct Student
 {
     string name;
@@ -9,46 +8,36 @@ struct Student
     string degree;
     string hostel;
     float cgpa;
-
     void addDetails()
     {
         cout << "Enter name: ";
         cin >> name;
-
         cout << "Enter roll number: ";
         cin >> rollNo;
-
         cout << "Enter degree: ";
         cin >> degree;
-
         cout << "Enter hostel name: ";
         cin >> hostel;
-
         cout << "Enter CGPA: ";
         cin >> cgpa;
     }
-
     void updateDetails()
     {
         cout << "Update name: ";
         cin >> name;
-
         cout << "Update degree: ";
         cin >> degree;
     }
-
     void updateCGPA()
     {
         cout << "Enter new CGPA: ";
         cin >> cgpa;
     }
-
     void updateHostel()
     {
         cout << "Enter new hostel name: ";
         cin >> hostel;
     }
-
     void displayDetails()
     {
         cout << "\nStudent Details";
@@ -59,18 +48,13 @@ struct Student
         cout << "\nCGPA: " << cgpa;
     }
 };
-
 int main()
 {
     Student s;
-
     s.addDetails();
     s.displayDetails();
-
     s.updateCGPA();
     s.updateHostel();
-
     s.displayDetails();
-
     return 0;
 }
