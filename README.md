@@ -30,13 +30,21 @@ The purpose of this repository is to:
 
 ## 🧠 Concepts Covered
 
-* Classes and Objects
-* Constructors and Destructors
-* Inheritance
-* Polymorphism
-* Encapsulation
-* Friend Functions
-* Operator Overloading
+* Object-Oriented Programming fundamentals  
+* Classes and Objects  
+* Constructors and Destructors  
+* Friend Functions and Friend Classes  
+* Pointers and Dynamic Memory Allocation  
+* Inheritance (Single, Multiple, Multilevel, Hierarchical, Hybrid)  
+* Polymorphism (Compile-time & Run-time)  
+* Virtual Functions and Abstract Classes  
+* Operator Overloading  
+* Function Overloading  
+* Templates (Function & Class Templates)  
+* File Handling and File I/O Operations  
+* Static and Const Member Functions  
+* Inline Functions  
+* Type Conversion (Basic ↔ User-defined)  
 
 ## 🚀 How to Run
 
