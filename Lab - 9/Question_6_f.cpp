@@ -14,10 +14,8 @@ int main() {
         cout << "Position after writing '" << text[i] << "': "
              << file.tellp() << endl;
     }
-
     file.seekp(6); 
     file << "C++  ";
-
     file.seekg(0);
     char ch;
     cout << "\nFinal content in file:\n";
